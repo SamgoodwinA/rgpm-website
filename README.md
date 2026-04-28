@@ -1,10 +1,10 @@
-🌐 RGPM Website (Pro-Bono Project)
+ 🌐 RGPM Website (Full-Stack Pro-Bono Project)
 
  📌 Overview
 
-This project is a fully functional website developed and maintained for **Rajasthan Glorious Prayer Mission (RGPM)** as a pro-bono initiative.
+This project is a fully functional full-stack website developed and maintained for Rajasthan Glorious Prayer Mission (RGPM) as a pro-bono initiative.
 
-The website is designed to improve community engagement, accessibility, and online presence.
+The platform improves community engagement, accessibility, and provides a modern digital presence.
 
 🔗 Live Website: https://rajasthangloriousprayermission.org/
 
@@ -12,58 +12,93 @@ The website is designed to improve community engagement, accessibility, and onli
 
  🚀 Features
 
-* Responsive web design for mobile and desktop
-* Modern UI using React / Next.js
-* Fast page loading and optimized performance
-* Secure deployment and hosting
-* Easy content accessibility for users
+* Responsive web design (mobile & desktop)
+* Admin portal for content management
+* Secure admin-only access
+* Dynamic updates for photos, videos, and news
+* Google Forms integration for prayer requests
+* Optimized performance and fast loading
+* User-friendly interface
+
+---
+
+ 🔐 Admin Panel
+
+The system includes a secure admin dashboard that allows:
+
+* Uploading and managing images and media
+* Posting and updating news and announcements
+* Maintaining website content dynamically
+
+Access is restricted to authorized admin users only.
 
 ---
 
  🛠️ Tech Stack
 
-* Frontend: React.js / Next.js
-* Backend: Node.js (if used)
-* Styling: CSS / Tailwind (if used)
-* Deployment: Cloud hosting
+ Frontend:
+
+* Next.js (React)
+* HTML, CSS, JavaScript
+
+ Backend:
+
+* Node.js (Express)
+* Hosted on Railway
+
+ Database:
+
+* MongoDB 
 
 ---
 
- 👨‍💻 My Contribution
+ ☁️ Deployment
 
-* Developed and deployed the website
-* Managed hosting and deployment
-* Ensured website performance and reliability
-* Maintained and updated content
+* Backend deployed using Railway
+* Frontend deployed on live domain
+* Production-level deployment and maintenance
+
+---
+
+ 🌍 Real-World Usage
+
+The website is actively used by RGPM for:
+
+* Publishing updates and announcements
+* Sharing media and ministry content
+* Collecting prayer requests via Google Forms
+
+The system is currently maintained in a live production environment.
 
 ---
 
  📷 Screenshots
 
-(Add 2–3 screenshots here of your website)
+![Home](public/screenshots/home.png)
+![About](public/screenshots/about.png)
 
 ---
 
- ⚙️ How to Run Locally
+ 👨‍💻 My Contribution
 
-```bash
-npm install
-npm run dev
-```
-
-Then open: http://localhost:3000
-
----
-
- 📈 Impact
-
-* Improved online visibility for RGPM
-* Enabled better communication with community members
-* Provided a scalable and maintainable web platform
+* Designed and developed the full-stack application
+* Built responsive UI using Next.js
+* Developed admin panel for content management
+* Integrated backend services and APIs
+* Deployed backend using Railway
+* Managed hosting and live updates
 
 ---
 
- 📬 Contact
+ ⚠️ Note
 
-Sam Good Win A
-Email: [asamgoodwin@gmail.com](mailto:asamgoodwin@gmail.com)
+Large media files (audio, video, and other heavy assets) are excluded from this repository to maintain optimal size and performance. The live website contains full media content.
+
+---
+
+## 📬 Contact
+
+Name: Sam Good Win A
+📧 Email: [asamgoodwin@gmail.com](mailto:asamgoodwin@gmail.com)
+🌐 Website: https://rajasthangloriousprayermission.org/
+💼 GitHub: https://github.com/SamgoodwinA
