@@ -1,0 +1,31 @@
+.rgpm-footer {
+  width: auto;
+  padding: 20px 10px;
+  background: rgba(158, 153, 153, 0.5);
+  border-top: 2px solid rgba(0, 0, 0, 0.4);
+  margin: 10px;
+}
+
+.rgpm-footer * {
+  all: unset;
+}
+
+.rgpm-footer-inner {
+  display: block;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+
+.rgpm-footer-inner p {
+  display: block;
+  margin: 6px 0;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-transform: none;
+  text-shadow: none;
+  animation: none;
+  line-height: 1.5;
+  
+}

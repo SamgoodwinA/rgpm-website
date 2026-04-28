@@ -1,0 +1,111 @@
+/* DO NOT TOUCH .features BACKGROUND */
+/* ONLY neutralize global animation inside contact */
+
+.contact-reset,
+.contact-reset * {
+  animation: none !important;
+  transition: none !important;
+  text-shadow: none !important;
+  filter: none !important;
+  mix-blend-mode: normal !important;
+   text-align: center;
+
+}
+
+/* Text alignment */
+.contact-content {
+  text-align: center;
+  padding: 30px 20px;
+  max-width: 700px;
+  margin: 0 auto 35px;
+}
+
+.contact-content p {
+  font-family: "Libre Baskerville", serif;
+  font-size: 30px;
+  line-height: 1.8;
+  margin: 6px 0;
+  
+
+  color: #1e1e1e;
+  font-weight: 400;
+}
+.contact-content p span,
+.contact-content p svg {
+  margin-right: 6px;
+}
+
+.contact-content p:last-child {
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* MOBILE TUNING */
+@media (max-width: 600px) {
+  .contact-reset footer {
+    font-size: 26px;
+  }
+
+  .contact-content p {
+    font-size: 18px;
+  }
+}
+
+/* Map padding fix */
+.map-box {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 16px;
+  background: transparent;
+}
+
+.map-box iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+  border-radius: 12px;
+}
+
+/* FLOATING BUTTONS – SAME AS BEFORE */
+.whatsapp-float {
+position: fixed;
+right: 18px;
+bottom: 88px;
+width: 56px;
+height: 56px;
+background: #25d366;
+color: #fff;
+border-radius: 50%;
+font-size: 26px;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 3000;
+text-decoration: none;
+box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.scroll-top {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #111;
+  color: #fff;
+  border: none;
+  font-size: 22px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 3000;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+@media (max-width: 600px) {
+  .map-box iframe {
+    height: 300px;
+  }
+}

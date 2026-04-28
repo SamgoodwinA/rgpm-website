@@ -1,0 +1,91 @@
+/* DO NOT TOUCH .features OR footer (global.css handles it) */
+
+.prayer-form-box {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/* Google Form iframe */
+.prayer-form-box iframe {
+  border-radius: 16px;
+   margin: 30px auto;
+  
+}
+
+/* Floating buttons – SAME STYLE AS CONTACT */
+.whatsapp-float {
+position: fixed;
+right: 18px;
+bottom: 88px;
+width: 56px;
+height: 56px;
+background: #25d366;
+color: #fff;
+border-radius: 50%;
+font-size: 26px;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 3000;
+text-decoration: none;
+box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+.scroll-top {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #111;
+  color: #fff;
+  border: none;
+  font-size: 22px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 3000;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;   /* creates equal space on all sides */
+}
+/* Container */
+.features .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;           /* keeps breathing space */
+  overflow: hidden;        /* 🔑 hides any overflow */
+}
+
+/* Image */
+.features .box img {
+  display: block;
+  max-width: 100%;
+  width: 800px;
+  height: auto;
+
+  border-radius: 40px;
+
+  /* ❌ REMOVE SHADOW COMPLETELY */
+  box-shadow: none;
+
+  /* ❌ REMOVE TRANSFORM EFFECT */
+  transform: none;
+}
+div.box img{ 
+ border: 3px solid rgba(23, 31, 31, 0);
+}
+
+.box img:hover {
+  transform: translateY(-4px);
+  transition: 0.3s ease;
+}
