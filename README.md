@@ -74,8 +74,17 @@ The system is currently maintained in a live production environment.
 
  📷 Screenshots
 
-![Home](public/screenshots/home.png)
-![About](public/screenshots/about.png)
+<p align="center">
+  <img src="images/s1.png" width="800"/>
+</p>
+
+<p align="center">
+  <img src="images/s2.png" width="800"/>
+</p>
+
+<p align="center">
+  <img src="images/s3.png" width="800"/>
+</p>
 
 ---
 
